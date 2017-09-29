@@ -1,0 +1,14 @@
+{
+  "test": {
+    "PORT": 3000,
+    "DATABASE_URI": "postgres://user:password@localhost:5432/testing"
+  },
+  "development": {
+    "PORT": 3000,
+    "DATABASE_URI": "postgres://user:password@localhost:5432/development"
+  },
+  "production": {
+    "PORT": 8080,
+    "DATABASE_URI": "postgres://user:password@localhost:5432/portfolio"
+  }
+}
