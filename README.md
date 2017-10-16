@@ -29,6 +29,12 @@ For windows, install following executables
 
 [Installing postgresql on windows](https://www.labkey.org/Documentation/wiki-page.view?name=installPostgreSQLWindows)
 
+For macos, get brew and execute following commands
+```shell
+brew install node
+brew install postgresql
+```
+
 Then upgrade nodejs and install the dependencies
 ```powershell
 npm install n -g
