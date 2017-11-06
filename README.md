@@ -1,4 +1,4 @@
-# Nodejs - Vue - Postgresql Backbone
+# Nodejs - Vue - Postgresql Sample Project
 This is an example project featuring the use of nodejs, vuejs and postgresql in the same project
 
 ## Requirements
