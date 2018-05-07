@@ -16,9 +16,6 @@ echo "Upgrade nodejs"
 sudo npm install n -g
 sudo n stable
 
-echo "Installing Nodejs Dependencies"
-npm install -g pm2
-
 echo "Installing Postgres"
 sudo apt-get install postgresql postgresql-contrib
 ```
