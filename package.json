@@ -1,7 +1,7 @@
 {
   "name": "helloworld",
   "description": "hello world page",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "helloworld@example.com",
   "scripts": {
     "test": "nyc mocha --timeout=3000",

@@ -67,3 +67,9 @@ Simply run following commands on the root folder to start
 npm install
 npm start
 ```
+
+# Changelog
+
+## Breaking Change
+- Added support for Webpack4, ESLint and Babel 7
+- Cleaned code and structure
