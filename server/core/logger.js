@@ -1,14 +1,14 @@
-const winston = require('winston');
+const winston = require('winston')
 
-winston.level = 'debug';
+winston.level = 'debug'
 const logger = new (winston.Logger)({
   transports: [
     // colorize the output to the console
     new (winston.transports.Console)({
       colorize: true,
-      prettyPrint: true,
-    }),
-  ],
-});
+      prettyPrint: true
+    })
+  ]
+})
 
-module.exports = logger;
+module.exports = logger

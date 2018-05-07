@@ -1,9 +1,7 @@
 
-module.exports = function(router) {
-  const logger = require('../core/logger');
-
+module.exports = function (router) {
   router.route('/hello')
     .get((req, res) => {
-      res.json('Hello World!');
-    });
-};
+      res.json('Hello World!')
+    })
+}

@@ -1,30 +1,27 @@
 <template>
- <div>
-   <h1>{{text}}</h1>
- </div> 
+  <div>
+    <h1>Hello World Title</h1>
+    <h3>{{ text }}</h3>
+  </div>
 </template>
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       text: 'fetching...'
     }
   },
-  mounted() {
-    fetch('api/hello')
-      .then(response => {
-        return response.json();
-      }).then(data => {
-        this.text = data;
-      });
+  mounted: async function () {
+    const response = await fetch('api/hello')
+    this.text = await response.json()
   }
 }
 </script>
 
 <style scoped lang="scss">
-h1 {
+h3 {
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 400;
 }
 </style>

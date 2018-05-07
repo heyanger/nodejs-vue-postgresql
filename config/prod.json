@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "hello-world-prod",
+      "script": "server/index.js",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "8080"
+      }
+    }
+  ]
+}

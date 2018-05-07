@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "hello-world-staging",
+      "script": "server/index.js",
+      "env": {
+        "NODE_ENV": "staging",
+        "PORT": "8080"
+      }
+    }
+  ]
+}
