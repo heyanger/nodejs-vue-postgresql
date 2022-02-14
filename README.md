@@ -40,7 +40,7 @@ npm install -g pm2
 ```
 
 ## Setting up
-Before running the code, we need to setup postgtesql and append the postgresql details in server/config/config.json
+Before running the code, we need to setup postgresql and append the postgresql details in server/config/config.json
 
 Open up the psql console and run the following command
 ```psql
