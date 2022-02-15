@@ -22,9 +22,9 @@ sudo apt-get install postgresql postgresql-contrib
 
 For windows, install following executables
 
-[Installing nodejs on windows](blog.teamtreehouse.com/install-node-js-npm-windows)
+[Installing nodejs on windows](https://blog.teamtreehouse.com/install-node-js-npm-windows)
 
-[Installing postgresql on windows](https://www.labkey.org/Documentation/wiki-page.view?name=installPostgreSQLWindows)
+[Installing postgresql on windows](https://www.guru99.com/download-install-postgresql.html)
 
 For macos, get brew and execute following commands
 ```shell
