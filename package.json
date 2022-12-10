@@ -62,7 +62,7 @@
     "connect-history-api-fallback": "^1.6.0",
     "dayjs": "^1.8.22",
     "es6-promise": "^4.2.8",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "helmet": "^3.21.3",
     "helmet-csp": "^2.9.5",
